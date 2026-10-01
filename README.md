@@ -61,10 +61,7 @@ Representative areas were selected from the campus point clouds provided on the 
 
 The colour point-cloud v1 model used at this stage is located at:
 
-```text
-F:\Summer_2026\ArcGIS_project\new_v1_color_models\
-campus_4class_rgb_v1_new_PointClassificationModel
-```
+**[FE Studio Point Cloud Research](https://festudio.ca/research/pointcloud)**
 
 The main files are:
 
