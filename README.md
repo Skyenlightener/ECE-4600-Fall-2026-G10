@@ -77,13 +77,13 @@ The primary inputs to v1 are the XYZ coordinates and RGB colours stored in the L
 ```text
 Aerial photographs
    ↓
-Gaussian Splatting and mesh reconstruction
+RGB point cloud / LAS Manual
    ↓
-RGB point cloud / LAS
-   ↓
-Manual ArcGIS labels and AI v1 classification
+ArcGIS labels and AI v1 classification
    ↓
 Classification results, mesh, Gaussian model, and SpeedTree vegetation
+   ↓
+Gaussian Splatting and mesh reconstruction
    ↓
 MLSLabsRenderer depth coordination
    ↓
