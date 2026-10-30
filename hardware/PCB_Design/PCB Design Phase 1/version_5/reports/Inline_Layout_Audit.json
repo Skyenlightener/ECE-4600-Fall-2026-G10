@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "check_count": 25,
+  "fitted_total": 53,
+  "all_contact_strips": 55,
+  "sheet_counts": {
+    "CH1": {
+      "fitted": 25,
+      "dnp": 1,
+      "references": [
+        "XS101",
+        "XS102",
+        "XS103",
+        "XS104",
+        "XS105",
+        "XS106",
+        "XS107",
+        "XS108",
+        "XS109",
+        "XS110",
+        "XS111",
+        "XS112",
+        "XS113",
+        "XS114",
+        "XS115",
+        "XS116",
+        "XS117",
+        "XS118",
+        "XS119",
+        "XS120",
+        "XS121",
+        "XS122",
+        "XS123",
+        "XS124",
+        "XS125"
+      ]
+    },
+    "CH2": {
+      "fitted": 28,
+      "dnp": 1,
+      "references": [
+        "XS201",
+        "XS202",
+        "XS203",
+        "XS204",
+        "XS205",
+        "XS206",
+        "XS207",
+        "XS208",
+        "XS209",
+        "XS210",
+        "XS211",
+        "XS212",
+        "XS213",
+        "XS214",
+        "XS215",
+        "XS216",
+        "XS217",
+        "XS218",
+        "XS219",
+        "XS220",
+        "XS221",
+        "XS222",
+        "XS223",
+        "XS224",
+        "XS225",
+        "XS301",
+        "XS302",
+        "XS303"
+      ]
+    },
+    "version_5": {
+      "fitted": 0,
+      "dnp": 0,
+      "references": []
+    }
+  },
+  "all_preexisting_pin_connectivity_unchanged": true,
+  "checks": [
+    {
+      "check": "All pre-existing pin neighbours, including socket pins, unchanged",
+      "pass": true
+    },
+    {
+      "check": "CH1 fitted/DNP contact counts match reference-board allocation",
+      "pass": true
+    },
+    {
+      "check": "R4 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "C2 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "C3 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "R9 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "R10 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "R13 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "R14 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "C4 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "C5 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "CH2 fitted/DNP contact counts match reference-board allocation",
+      "pass": true
+    },
+    {
+      "check": "R31 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "C9 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "C10 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "R32 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "R33 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "R36 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "R37 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "C12 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "C11 retains nominal value, is excluded from PCB, and has two nearby directly connected strips",
+      "pass": true
+    },
+    {
+      "check": "XS301 is in CH2 lower-right power group (+15V)",
+      "pass": true
+    },
+    {
+      "check": "XS302 is in CH2 lower-right power group (-15V)",
+      "pass": true
+    },
+    {
+      "check": "XS303 is in CH2 lower-right power group (GND)",
+      "pass": true
+    },
+    {
+      "check": "version_5 fitted/DNP contact counts match reference-board allocation",
+      "pass": true
+    }
+  ]
+}
