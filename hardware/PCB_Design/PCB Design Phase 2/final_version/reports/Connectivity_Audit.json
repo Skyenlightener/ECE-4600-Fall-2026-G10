@@ -1,0 +1,2131 @@
+{
+  "passed": true,
+  "check_count": 227,
+  "netlist_components_including_dnp_and_copper_features": 188,
+  "raw_nets": 85,
+  "dnp_components": 33,
+  "removable_components": 18,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "scope": "Submitted P1/P2/P3 reconstruction with physical-board confirmation, fitted/DNP assembly, and explicit common-contact sockets. Connectivity checks only; no functional performance claim.",
+  "checks": [
+    {
+      "check": "CH2 P3 signal node 1",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J5.1",
+          "R28.1",
+          "T9.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_IN_MINUS",
+          "/CH2 Reference Replica/CH2_IN_MINUS",
+          "/CH2 Reference Replica/CH2_IN_MINUS"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 2",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R28.2",
+          "U6.2"
+        ],
+        "nets": [
+          "Net-(U6--)",
+          "Net-(U6--)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 3",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J5.2",
+          "R29.1",
+          "T10.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_IN_PLUS",
+          "/CH2 Reference Replica/CH2_IN_PLUS",
+          "/CH2 Reference Replica/CH2_IN_PLUS"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 4",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R29.2",
+          "U6.3"
+        ],
+        "nets": [
+          "Net-(U6-+)",
+          "Net-(U6-+)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 5",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J5.3",
+          "R30.1",
+          "T11.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_ELECTRODE_REF",
+          "/CH2 Reference Replica/CH2_ELECTRODE_REF",
+          "/CH2 Reference Replica/CH2_ELECTRODE_REF"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 6",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R30.2",
+          "J7.1",
+          "J7.3",
+          "JP202.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_BODY_RETURN",
+          "/CH2 Reference Replica/CH2_BODY_RETURN",
+          "/CH2 Reference Replica/CH2_BODY_RETURN",
+          "/CH2 Reference Replica/CH2_BODY_RETURN"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 7",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U6.1",
+          "R31.1",
+          "R43.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_RG_A",
+          "/CH2 Reference Replica/CH2_RG_A",
+          "/CH2 Reference Replica/CH2_RG_A"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 8",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U6.8",
+          "R31.2",
+          "R44.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_RG_B",
+          "/CH2 Reference Replica/CH2_RG_B",
+          "/CH2 Reference Replica/CH2_RG_B"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 9",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U6.5",
+          "J6.1",
+          "J6.3",
+          "JP201.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_IA_REF",
+          "/CH2 Reference Replica/CH2_IA_REF",
+          "/CH2 Reference Replica/CH2_IA_REF",
+          "/CH2 Reference Replica/CH2_IA_REF"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 10",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J6.2",
+          "T16.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_EXT_REF",
+          "/CH2 Reference Replica/CH2_EXT_REF"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 11",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U6.6",
+          "C9.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_IA_OUT",
+          "/CH2 Reference Replica/CH2_IA_OUT"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 12",
+      "pass": true,
+      "details": {
+        "pins": [
+          "C9.2",
+          "C10.1",
+          "R32.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_HP_N1",
+          "/CH2 Reference Replica/CH2_HP_N1",
+          "/CH2 Reference Replica/CH2_HP_N1"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 13",
+      "pass": true,
+      "details": {
+        "pins": [
+          "C10.2",
+          "R33.1",
+          "U7.3"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_HP_PLUS",
+          "/CH2 Reference Replica/CH2_HP_PLUS",
+          "/CH2 Reference Replica/CH2_HP_PLUS"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 14",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R34.1",
+          "R35.1",
+          "U7.2"
+        ],
+        "nets": [
+          "Net-(U7--)",
+          "Net-(U7--)",
+          "Net-(U7--)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 15",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U7.6",
+          "R32.2",
+          "R35.2",
+          "R36.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_HP_OUT",
+          "/CH2 Reference Replica/CH2_HP_OUT",
+          "/CH2 Reference Replica/CH2_HP_OUT",
+          "/CH2 Reference Replica/CH2_HP_OUT"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 16",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R36.2",
+          "R37.1",
+          "C12.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_LP_N1",
+          "/CH2 Reference Replica/CH2_LP_N1",
+          "/CH2 Reference Replica/CH2_LP_N1"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 17",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R37.2",
+          "C11.1",
+          "U8.3"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_LP_PLUS",
+          "/CH2 Reference Replica/CH2_LP_PLUS",
+          "/CH2 Reference Replica/CH2_LP_PLUS"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 18",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U8.2",
+          "R38.1",
+          "R39.1"
+        ],
+        "nets": [
+          "Net-(U8--)",
+          "Net-(U8--)",
+          "Net-(U8--)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 19",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U8.6",
+          "C12.2",
+          "R39.2",
+          "R47.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_LP_OUT",
+          "/CH2 Reference Replica/CH2_LP_OUT",
+          "/CH2 Reference Replica/CH2_LP_OUT",
+          "/CH2 Reference Replica/CH2_LP_OUT"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 20",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R47.2",
+          "R48.2",
+          "U9.3"
+        ],
+        "nets": [
+          "Net-(U9A-+)",
+          "Net-(U9A-+)",
+          "Net-(U9A-+)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 21",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R49.2",
+          "R50.1",
+          "U9.2"
+        ],
+        "nets": [
+          "Net-(U9A--)",
+          "Net-(U9A--)",
+          "Net-(U9A--)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 22",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U9.1",
+          "R50.2",
+          "R40.1",
+          "C14.1",
+          "J8.1",
+          "T12.1"
+        ],
+        "nets": [
+          "/CH2_BYPASS",
+          "/CH2_BYPASS",
+          "/CH2_BYPASS",
+          "/CH2_BYPASS",
+          "/CH2_BYPASS",
+          "/CH2_BYPASS"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 23",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R40.2",
+          "R41.1",
+          "C13.1"
+        ],
+        "nets": [
+          "Net-(C13-Pad1)",
+          "Net-(C13-Pad1)",
+          "Net-(C13-Pad1)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 24",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R41.2",
+          "C15.2",
+          "R51.1"
+        ],
+        "nets": [
+          "Net-(C15-Pad2)",
+          "Net-(C15-Pad2)",
+          "Net-(C15-Pad2)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 25",
+      "pass": true,
+      "details": {
+        "pins": [
+          "C14.2",
+          "C15.1",
+          "R42.1"
+        ],
+        "nets": [
+          "Net-(C14-Pad2)",
+          "Net-(C14-Pad2)",
+          "Net-(C14-Pad2)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 26",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R51.2",
+          "R52.1",
+          "U9.5"
+        ],
+        "nets": [
+          "Net-(U9B-+)",
+          "Net-(U9B-+)",
+          "Net-(U9B-+)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 27",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R53.1",
+          "R54.1",
+          "U9.6"
+        ],
+        "nets": [
+          "Net-(U9B--)",
+          "Net-(U9B--)",
+          "Net-(U9B--)"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 28",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U9.7",
+          "R54.2",
+          "J8.3",
+          "T14.1"
+        ],
+        "nets": [
+          "/CH2_FILTERED",
+          "/CH2_FILTERED",
+          "/CH2_FILTERED",
+          "/CH2_FILTERED"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 29",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R43.2",
+          "R44.2",
+          "U10.2",
+          "R46.2",
+          "C16.2"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_DRL_SUM",
+          "/CH2 Reference Replica/CH2_DRL_SUM",
+          "/CH2 Reference Replica/CH2_DRL_SUM",
+          "/CH2 Reference Replica/CH2_DRL_SUM",
+          "/CH2 Reference Replica/CH2_DRL_SUM"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 30",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R45.2",
+          "C16.1"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_DRL_COMP",
+          "/CH2 Reference Replica/CH2_DRL_COMP"
+        ]
+      }
+    },
+    {
+      "check": "CH2 P3 signal node 31",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U10.6",
+          "R46.1",
+          "R45.1",
+          "J7.4"
+        ],
+        "nets": [
+          "/CH2 Reference Replica/CH2_DRL_OUT",
+          "/CH2 Reference Replica/CH2_DRL_OUT",
+          "/CH2 Reference Replica/CH2_DRL_OUT",
+          "/CH2 Reference Replica/CH2_DRL_OUT"
+        ]
+      }
+    },
+    {
+      "check": "CH2 distinct source signal nodes not shorted",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CH2 ground",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R33.2",
+          "R34.2",
+          "C11.2",
+          "R38.2",
+          "R48.1",
+          "R49.1",
+          "C13.2",
+          "R42.2",
+          "R52.2",
+          "R53.2",
+          "U9.4",
+          "U10.3",
+          "J6.4",
+          "J7.2",
+          "J8.2",
+          "J8.4",
+          "T13.1",
+          "T15.1",
+          "JP201.2",
+          "JP202.2",
+          "U11.2"
+        ],
+        "nets": [
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND"
+        ]
+      }
+    },
+    {
+      "check": "CH2 +15V",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U6.7",
+          "U7.7",
+          "U8.7",
+          "U10.7",
+          "U11.1"
+        ],
+        "nets": [
+          "+15V",
+          "+15V",
+          "+15V",
+          "+15V",
+          "+15V"
+        ]
+      }
+    },
+    {
+      "check": "CH2 -15V",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U6.4",
+          "U7.4",
+          "U8.4",
+          "U10.4",
+          "J9.2"
+        ],
+        "nets": [
+          "-15V",
+          "-15V",
+          "-15V",
+          "-15V",
+          "-15V"
+        ]
+      }
+    },
+    {
+      "check": "CH2 +5V",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U9.8",
+          "U11.3"
+        ],
+        "nets": [
+          "+5V",
+          "+5V"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 1",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J1.1",
+          "R1.1",
+          "T1.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_IN_MINUS",
+          "/CH1 Reference Replica/CH1_IN_MINUS",
+          "/CH1 Reference Replica/CH1_IN_MINUS"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 2",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R1.2",
+          "U1.2"
+        ],
+        "nets": [
+          "Net-(U1--)",
+          "Net-(U1--)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 3",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J1.2",
+          "R2.1",
+          "T2.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_IN_PLUS",
+          "/CH1 Reference Replica/CH1_IN_PLUS",
+          "/CH1 Reference Replica/CH1_IN_PLUS"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 4",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R2.2",
+          "U1.3"
+        ],
+        "nets": [
+          "Net-(U1-+)",
+          "Net-(U1-+)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 5",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J1.3",
+          "R3.1",
+          "T3.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_ELECTRODE_REF",
+          "/CH1 Reference Replica/CH1_ELECTRODE_REF",
+          "/CH1 Reference Replica/CH1_ELECTRODE_REF"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 6",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R3.2",
+          "J3.1",
+          "J3.3",
+          "JP102.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_BODY_RETURN",
+          "/CH1 Reference Replica/CH1_BODY_RETURN",
+          "/CH1 Reference Replica/CH1_BODY_RETURN",
+          "/CH1 Reference Replica/CH1_BODY_RETURN"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 7",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U1.1",
+          "R4.1",
+          "R5.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_RG_A",
+          "/CH1 Reference Replica/CH1_RG_A",
+          "/CH1 Reference Replica/CH1_RG_A"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 8",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U1.8",
+          "R4.2",
+          "R6.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_RG_B",
+          "/CH1 Reference Replica/CH1_RG_B",
+          "/CH1 Reference Replica/CH1_RG_B"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 9",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U1.5",
+          "J2.1",
+          "J2.3",
+          "JP101.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_IA_REF",
+          "/CH1 Reference Replica/CH1_IA_REF",
+          "/CH1 Reference Replica/CH1_IA_REF",
+          "/CH1 Reference Replica/CH1_IA_REF"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 10",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J2.2",
+          "T8.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_EXT_REF",
+          "/CH1 Reference Replica/CH1_EXT_REF"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 11",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U1.6",
+          "C2.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_IA_OUT",
+          "/CH1 Reference Replica/CH1_IA_OUT"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 12",
+      "pass": true,
+      "details": {
+        "pins": [
+          "C2.2",
+          "C3.1",
+          "R9.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_HP_N1",
+          "/CH1 Reference Replica/CH1_HP_N1",
+          "/CH1 Reference Replica/CH1_HP_N1"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 13",
+      "pass": true,
+      "details": {
+        "pins": [
+          "C3.2",
+          "R10.1",
+          "U3.3"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_HP_PLUS",
+          "/CH1 Reference Replica/CH1_HP_PLUS",
+          "/CH1 Reference Replica/CH1_HP_PLUS"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 14",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R11.1",
+          "R12.1",
+          "U3.2"
+        ],
+        "nets": [
+          "Net-(U3--)",
+          "Net-(U3--)",
+          "Net-(U3--)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 15",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U3.6",
+          "R9.2",
+          "R12.2",
+          "R13.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_HP_OUT",
+          "/CH1 Reference Replica/CH1_HP_OUT",
+          "/CH1 Reference Replica/CH1_HP_OUT",
+          "/CH1 Reference Replica/CH1_HP_OUT"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 16",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R13.2",
+          "R14.1",
+          "C4.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_LP_N1",
+          "/CH1 Reference Replica/CH1_LP_N1",
+          "/CH1 Reference Replica/CH1_LP_N1"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 17",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R14.2",
+          "C5.1",
+          "U4.3"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_LP_PLUS",
+          "/CH1 Reference Replica/CH1_LP_PLUS",
+          "/CH1 Reference Replica/CH1_LP_PLUS"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 18",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U4.2",
+          "R15.1",
+          "R16.1"
+        ],
+        "nets": [
+          "Net-(U4--)",
+          "Net-(U4--)",
+          "Net-(U4--)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 19",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U4.6",
+          "C4.2",
+          "R16.2",
+          "R20.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_LP_OUT",
+          "/CH1 Reference Replica/CH1_LP_OUT",
+          "/CH1 Reference Replica/CH1_LP_OUT",
+          "/CH1 Reference Replica/CH1_LP_OUT"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 20",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R20.2",
+          "R21.2",
+          "U5.3"
+        ],
+        "nets": [
+          "Net-(U5A-+)",
+          "Net-(U5A-+)",
+          "Net-(U5A-+)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 21",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R22.2",
+          "R23.1",
+          "U5.2"
+        ],
+        "nets": [
+          "Net-(U5A--)",
+          "Net-(U5A--)",
+          "Net-(U5A--)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 22",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U5.1",
+          "R23.2",
+          "R17.1",
+          "C7.1",
+          "J4.1",
+          "T4.1"
+        ],
+        "nets": [
+          "/CH1_BYPASS",
+          "/CH1_BYPASS",
+          "/CH1_BYPASS",
+          "/CH1_BYPASS",
+          "/CH1_BYPASS",
+          "/CH1_BYPASS"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 23",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R17.2",
+          "R18.1",
+          "C6.1"
+        ],
+        "nets": [
+          "Net-(C6-Pad1)",
+          "Net-(C6-Pad1)",
+          "Net-(C6-Pad1)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 24",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R18.2",
+          "C8.2",
+          "R24.1"
+        ],
+        "nets": [
+          "Net-(C8-Pad2)",
+          "Net-(C8-Pad2)",
+          "Net-(C8-Pad2)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 25",
+      "pass": true,
+      "details": {
+        "pins": [
+          "C7.2",
+          "C8.1",
+          "R19.1"
+        ],
+        "nets": [
+          "Net-(C7-Pad2)",
+          "Net-(C7-Pad2)",
+          "Net-(C7-Pad2)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 26",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R24.2",
+          "R25.1",
+          "U5.5"
+        ],
+        "nets": [
+          "Net-(U5B-+)",
+          "Net-(U5B-+)",
+          "Net-(U5B-+)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 27",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R26.1",
+          "R27.1",
+          "U5.6"
+        ],
+        "nets": [
+          "Net-(U5B--)",
+          "Net-(U5B--)",
+          "Net-(U5B--)"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 28",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U5.7",
+          "R27.2",
+          "J4.3",
+          "T6.1"
+        ],
+        "nets": [
+          "/CH1_FILTERED",
+          "/CH1_FILTERED",
+          "/CH1_FILTERED",
+          "/CH1_FILTERED"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 29",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R5.2",
+          "R6.2",
+          "U2.2",
+          "R8.2",
+          "C1.2"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_DRL_SUM",
+          "/CH1 Reference Replica/CH1_DRL_SUM",
+          "/CH1 Reference Replica/CH1_DRL_SUM",
+          "/CH1 Reference Replica/CH1_DRL_SUM",
+          "/CH1 Reference Replica/CH1_DRL_SUM"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 30",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R7.2",
+          "C1.1"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_DRL_COMP",
+          "/CH1 Reference Replica/CH1_DRL_COMP"
+        ]
+      }
+    },
+    {
+      "check": "CH1 P3 signal node 31",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U2.6",
+          "R8.1",
+          "R7.1",
+          "J3.4"
+        ],
+        "nets": [
+          "/CH1 Reference Replica/CH1_DRL_OUT",
+          "/CH1 Reference Replica/CH1_DRL_OUT",
+          "/CH1 Reference Replica/CH1_DRL_OUT",
+          "/CH1 Reference Replica/CH1_DRL_OUT"
+        ]
+      }
+    },
+    {
+      "check": "CH1 distinct source signal nodes not shorted",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CH1 ground",
+      "pass": true,
+      "details": {
+        "pins": [
+          "R10.2",
+          "R11.2",
+          "C5.2",
+          "R15.2",
+          "R21.1",
+          "R22.1",
+          "C6.2",
+          "R19.2",
+          "R25.2",
+          "R26.2",
+          "U5.4",
+          "U2.3",
+          "J2.4",
+          "J3.2",
+          "J4.2",
+          "J4.4",
+          "T5.1",
+          "T7.1",
+          "JP101.2",
+          "JP102.2",
+          "U11.2"
+        ],
+        "nets": [
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND"
+        ]
+      }
+    },
+    {
+      "check": "CH1 +15V",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U1.7",
+          "U3.7",
+          "U4.7",
+          "U2.7",
+          "U11.1"
+        ],
+        "nets": [
+          "+15V",
+          "+15V",
+          "+15V",
+          "+15V",
+          "+15V"
+        ]
+      }
+    },
+    {
+      "check": "CH1 -15V",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U1.4",
+          "U3.4",
+          "U4.4",
+          "U2.4",
+          "J9.2"
+        ],
+        "nets": [
+          "-15V",
+          "-15V",
+          "-15V",
+          "-15V",
+          "-15V"
+        ]
+      }
+    },
+    {
+      "check": "CH1 +5V",
+      "pass": true,
+      "details": {
+        "pins": [
+          "U5.8",
+          "U11.3"
+        ],
+        "nets": [
+          "+5V",
+          "+5V"
+        ]
+      }
+    },
+    {
+      "check": "P2 +15V",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J9.1",
+          "U11.1",
+          "C35.1",
+          "T17.1"
+        ],
+        "nets": [
+          "+15V",
+          "+15V",
+          "+15V",
+          "+15V"
+        ]
+      }
+    },
+    {
+      "check": "P2 -15V",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J9.2",
+          "C36.2",
+          "T18.1"
+        ],
+        "nets": [
+          "-15V",
+          "-15V",
+          "-15V"
+        ]
+      }
+    },
+    {
+      "check": "P2 +5V",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J9.3",
+          "U11.3",
+          "C17.1",
+          "C18.1",
+          "C38.1"
+        ],
+        "nets": [
+          "+5V",
+          "+5V",
+          "+5V",
+          "+5V",
+          "+5V"
+        ]
+      }
+    },
+    {
+      "check": "P2 +V_AUX",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J9.4",
+          "C37.1"
+        ],
+        "nets": [
+          "/+V_AUX",
+          "/+V_AUX"
+        ]
+      }
+    },
+    {
+      "check": "P2 GND",
+      "pass": true,
+      "details": {
+        "pins": [
+          "J9.5",
+          "U11.2",
+          "C35.2",
+          "C36.1",
+          "C37.2",
+          "C38.2",
+          "C17.2",
+          "C18.2",
+          "T19.1"
+        ],
+        "nets": [
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND",
+          "GND"
+        ]
+      }
+    },
+    {
+      "check": "Five distinct J9 power rails",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Site-confirmed references plus explicit white contact strips; R55/R56 absent",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R28",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R29",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R34",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R35",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R38",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R39",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R47",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R48",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R49",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R50",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R51",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R52",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R53",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R54",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R30",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R31",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R32",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R33",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R36",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R37",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R40",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R41",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R42",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R43",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R44",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R45",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R46",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C9",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C15",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C16",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U9",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R15",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R16",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R20",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R21",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R22",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R23",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R24",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R25",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R26",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R27",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R9",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R17",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R18",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R19",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value R8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C17",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C18",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C19",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C20",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C21",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C22",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C23",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C24",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C25",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C26",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C27",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C28",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C29",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C30",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C31",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C32",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C33",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C34",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C35",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C36",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C37",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value C38",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Reference value U11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Photo-known options and associated driver parts marked DNP",
+      "pass": true,
+      "details": [
+        "C1",
+        "C16",
+        "C22",
+        "C26",
+        "C30",
+        "C34",
+        "J2",
+        "J3",
+        "J4",
+        "J6",
+        "J7",
+        "J8",
+        "J9",
+        "R11",
+        "R15",
+        "R25",
+        "R26",
+        "R34",
+        "R38",
+        "R43",
+        "R44",
+        "R45",
+        "R46",
+        "R5",
+        "R52",
+        "R53",
+        "R6",
+        "R7",
+        "R8",
+        "T16",
+        "T8",
+        "U10",
+        "U2"
+      ]
+    },
+    {
+      "check": "Plug-in assembly C10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted C10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly C11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted C11",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly C12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted C12",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly C2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted C2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly C3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted C3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly C4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted C4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly C5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted C5",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly C9",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted C9",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R13",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R14",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R31",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R31",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R32",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R32",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R33",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R33",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R36",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R36",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R37",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R37",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Plug-in assembly R9",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "No fixed solder footprint substituted R9",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CLI full netlist includes DNP driver pins",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Default copper grounds AD620 REF U1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Default copper grounds body return via R3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "AD620 REF distinct from body electrode before copper contraction U1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Default copper grounds AD620 REF U6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Default copper grounds body return via R30",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "AD620 REF distinct from body electrode before copper contraction U6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Default KiCad ERC has zero errors and warnings",
+      "pass": true,
+      "details": null
+    }
+  ]
+}

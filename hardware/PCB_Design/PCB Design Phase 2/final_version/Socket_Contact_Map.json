@@ -1,0 +1,905 @@
+{
+  "date": "2026-10-28",
+  "revision": "Initial release",
+  "symbol": "ECG_v5:Socket_5Hole_Common",
+  "socket_contacts": [
+    {
+      "ref": "T8",
+      "page": "CH1",
+      "target_ref": "T8",
+      "target_pin": "1",
+      "net": "CH1_EXT_REF",
+      "role": "Standalone external REF input",
+      "dnp": true
+    },
+    {
+      "ref": "XS101",
+      "page": "CH1",
+      "target_ref": "R4",
+      "target_pin": "1",
+      "net": "CH1_RG_A",
+      "role": "R4 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        54.61,
+        170.18
+      ]
+    },
+    {
+      "ref": "XS102",
+      "page": "CH1",
+      "target_ref": "R4",
+      "target_pin": "2",
+      "net": "CH1_RG_B",
+      "role": "R4 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        62.23,
+        170.18
+      ]
+    },
+    {
+      "ref": "XS103",
+      "page": "CH1",
+      "target_ref": "C2",
+      "target_pin": "1",
+      "net": "CH1_IA_OUT",
+      "role": "C2 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        128.27,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS104",
+      "page": "CH1",
+      "target_ref": "C2",
+      "target_pin": "2",
+      "net": "CH1_HP_N1",
+      "role": "C2 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        135.89,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS105",
+      "page": "CH1",
+      "target_ref": "C3",
+      "target_pin": "1",
+      "net": "CH1_HP_N1",
+      "role": "C3 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        161.29,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS106",
+      "page": "CH1",
+      "target_ref": "C3",
+      "target_pin": "2",
+      "net": "CH1_HP_PLUS",
+      "role": "C3 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        168.91,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS107",
+      "page": "CH1",
+      "target_ref": "R9",
+      "target_pin": "1",
+      "net": "CH1_HP_N1",
+      "role": "R9 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        181.61,
+        46.989999999999995
+      ]
+    },
+    {
+      "ref": "XS108",
+      "page": "CH1",
+      "target_ref": "R9",
+      "target_pin": "2",
+      "net": "CH1_HP_OUT",
+      "role": "R9 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        189.23,
+        46.989999999999995
+      ]
+    },
+    {
+      "ref": "XS109",
+      "page": "CH1",
+      "target_ref": "R10",
+      "target_pin": "1",
+      "net": "CH1_HP_PLUS",
+      "role": "R10 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        170.17999999999998,
+        134.62
+      ]
+    },
+    {
+      "ref": "XS110",
+      "page": "CH1",
+      "target_ref": "R10",
+      "target_pin": "2",
+      "net": "GND",
+      "role": "R10 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        170.17999999999998,
+        142.24
+      ]
+    },
+    {
+      "ref": "XS111",
+      "page": "CH1",
+      "target_ref": "R13",
+      "target_pin": "1",
+      "net": "CH1_HP_OUT",
+      "role": "R13 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        262.89,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS112",
+      "page": "CH1",
+      "target_ref": "R13",
+      "target_pin": "2",
+      "net": "CH1_LP_N1",
+      "role": "R13 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        270.51,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS113",
+      "page": "CH1",
+      "target_ref": "R14",
+      "target_pin": "1",
+      "net": "CH1_LP_N1",
+      "role": "R14 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        298.45,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS114",
+      "page": "CH1",
+      "target_ref": "R14",
+      "target_pin": "2",
+      "net": "CH1_LP_PLUS",
+      "role": "R14 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        306.07,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS115",
+      "page": "CH1",
+      "target_ref": "C4",
+      "target_pin": "1",
+      "net": "CH1_LP_N1",
+      "role": "C4 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        318.77,
+        46.989999999999995
+      ]
+    },
+    {
+      "ref": "XS116",
+      "page": "CH1",
+      "target_ref": "C4",
+      "target_pin": "2",
+      "net": "CH1_LP_OUT",
+      "role": "C4 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        326.39,
+        46.989999999999995
+      ]
+    },
+    {
+      "ref": "XS117",
+      "page": "CH1",
+      "target_ref": "C5",
+      "target_pin": "1",
+      "net": "CH1_LP_PLUS",
+      "role": "C5 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        304.8,
+        134.62
+      ]
+    },
+    {
+      "ref": "XS118",
+      "page": "CH1",
+      "target_ref": "C5",
+      "target_pin": "2",
+      "net": "GND",
+      "role": "C5 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        304.8,
+        142.24
+      ]
+    },
+    {
+      "ref": "XS119",
+      "page": "CH1",
+      "target_ref": "J1",
+      "target_pin": "1",
+      "net": "CH1_IN_MINUS",
+      "role": "Electrode IN-",
+      "dnp": false,
+      "drawing_position": [
+        40.64,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS120",
+      "page": "CH1",
+      "target_ref": "J1",
+      "target_pin": "2",
+      "net": "CH1_IN_PLUS",
+      "role": "Electrode IN+",
+      "dnp": false,
+      "drawing_position": [
+        40.64,
+        128.26999999999998
+      ]
+    },
+    {
+      "ref": "XS121",
+      "page": "CH1",
+      "target_ref": "J1",
+      "target_pin": "3",
+      "net": "CH1_ELECTRODE_REF",
+      "role": "Electrode REF",
+      "dnp": false,
+      "drawing_position": [
+        40.64,
+        140.97
+      ]
+    },
+    {
+      "ref": "XS122",
+      "page": "CH1",
+      "target_ref": "J4",
+      "target_pin": "1",
+      "net": "CH1_BYPASS",
+      "role": "Output PRE",
+      "dnp": false,
+      "drawing_position": [
+        383.54,
+        281.94
+      ]
+    },
+    {
+      "ref": "XS123",
+      "page": "CH1",
+      "target_ref": "J4",
+      "target_pin": "2",
+      "net": "GND",
+      "role": "Output GND",
+      "dnp": false,
+      "drawing_position": [
+        383.54,
+        294.64
+      ]
+    },
+    {
+      "ref": "XS124",
+      "page": "CH1",
+      "target_ref": "J4",
+      "target_pin": "3",
+      "net": "CH1_FILTERED",
+      "role": "Output POST",
+      "dnp": false,
+      "drawing_position": [
+        383.54,
+        307.34
+      ]
+    },
+    {
+      "ref": "XS125",
+      "page": "CH1",
+      "target_ref": "J4",
+      "target_pin": "4",
+      "net": "GND",
+      "role": "Output GND",
+      "dnp": false,
+      "drawing_position": [
+        383.54,
+        320.03999999999996
+      ]
+    },
+    {
+      "ref": "T16",
+      "page": "CH2",
+      "target_ref": "T16",
+      "target_pin": "1",
+      "net": "CH2_EXT_REF",
+      "role": "Standalone external REF input",
+      "dnp": true
+    },
+    {
+      "ref": "XS201",
+      "page": "CH2",
+      "target_ref": "R31",
+      "target_pin": "1",
+      "net": "CH2_RG_A",
+      "role": "R31 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        54.61,
+        172.72
+      ]
+    },
+    {
+      "ref": "XS202",
+      "page": "CH2",
+      "target_ref": "R31",
+      "target_pin": "2",
+      "net": "CH2_RG_B",
+      "role": "R31 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        62.23,
+        172.72
+      ]
+    },
+    {
+      "ref": "XS203",
+      "page": "CH2",
+      "target_ref": "C9",
+      "target_pin": "1",
+      "net": "CH2_IA_OUT",
+      "role": "C9 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        128.27,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS204",
+      "page": "CH2",
+      "target_ref": "C9",
+      "target_pin": "2",
+      "net": "CH2_HP_N1",
+      "role": "C9 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        135.89,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS205",
+      "page": "CH2",
+      "target_ref": "C10",
+      "target_pin": "1",
+      "net": "CH2_HP_N1",
+      "role": "C10 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        161.29,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS206",
+      "page": "CH2",
+      "target_ref": "C10",
+      "target_pin": "2",
+      "net": "CH2_HP_PLUS",
+      "role": "C10 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        168.91,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS207",
+      "page": "CH2",
+      "target_ref": "R32",
+      "target_pin": "1",
+      "net": "CH2_HP_N1",
+      "role": "R32 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        181.61,
+        46.989999999999995
+      ]
+    },
+    {
+      "ref": "XS208",
+      "page": "CH2",
+      "target_ref": "R32",
+      "target_pin": "2",
+      "net": "CH2_HP_OUT",
+      "role": "R32 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        189.23,
+        46.989999999999995
+      ]
+    },
+    {
+      "ref": "XS209",
+      "page": "CH2",
+      "target_ref": "R33",
+      "target_pin": "1",
+      "net": "CH2_HP_PLUS",
+      "role": "R33 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        170.17999999999998,
+        134.62
+      ]
+    },
+    {
+      "ref": "XS210",
+      "page": "CH2",
+      "target_ref": "R33",
+      "target_pin": "2",
+      "net": "GND",
+      "role": "R33 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        170.17999999999998,
+        142.24
+      ]
+    },
+    {
+      "ref": "XS211",
+      "page": "CH2",
+      "target_ref": "R36",
+      "target_pin": "1",
+      "net": "CH2_HP_OUT",
+      "role": "R36 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        262.89,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS212",
+      "page": "CH2",
+      "target_ref": "R36",
+      "target_pin": "2",
+      "net": "CH2_LP_N1",
+      "role": "R36 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        270.51,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS213",
+      "page": "CH2",
+      "target_ref": "R37",
+      "target_pin": "1",
+      "net": "CH2_LP_N1",
+      "role": "R37 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        298.45,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS214",
+      "page": "CH2",
+      "target_ref": "R37",
+      "target_pin": "2",
+      "net": "CH2_LP_PLUS",
+      "role": "R37 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        306.07,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS215",
+      "page": "CH2",
+      "target_ref": "C12",
+      "target_pin": "1",
+      "net": "CH2_LP_N1",
+      "role": "C12 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        318.77,
+        46.989999999999995
+      ]
+    },
+    {
+      "ref": "XS216",
+      "page": "CH2",
+      "target_ref": "C12",
+      "target_pin": "2",
+      "net": "CH2_LP_OUT",
+      "role": "C12 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        326.39,
+        46.989999999999995
+      ]
+    },
+    {
+      "ref": "XS217",
+      "page": "CH2",
+      "target_ref": "C11",
+      "target_pin": "1",
+      "net": "CH2_LP_PLUS",
+      "role": "C11 lead 1",
+      "dnp": false,
+      "drawing_position": [
+        304.8,
+        134.62
+      ]
+    },
+    {
+      "ref": "XS218",
+      "page": "CH2",
+      "target_ref": "C11",
+      "target_pin": "2",
+      "net": "GND",
+      "role": "C11 lead 2",
+      "dnp": false,
+      "drawing_position": [
+        304.8,
+        142.24
+      ]
+    },
+    {
+      "ref": "XS219",
+      "page": "CH2",
+      "target_ref": "J5",
+      "target_pin": "1",
+      "net": "CH2_IN_MINUS",
+      "role": "Electrode IN-",
+      "dnp": false,
+      "drawing_position": [
+        40.64,
+        115.57
+      ]
+    },
+    {
+      "ref": "XS220",
+      "page": "CH2",
+      "target_ref": "J5",
+      "target_pin": "2",
+      "net": "CH2_IN_PLUS",
+      "role": "Electrode IN+",
+      "dnp": false,
+      "drawing_position": [
+        40.64,
+        128.26999999999998
+      ]
+    },
+    {
+      "ref": "XS221",
+      "page": "CH2",
+      "target_ref": "J5",
+      "target_pin": "3",
+      "net": "CH2_ELECTRODE_REF",
+      "role": "Electrode REF",
+      "dnp": false,
+      "drawing_position": [
+        40.64,
+        140.97
+      ]
+    },
+    {
+      "ref": "XS222",
+      "page": "CH2",
+      "target_ref": "J8",
+      "target_pin": "1",
+      "net": "CH2_BYPASS",
+      "role": "Output PRE",
+      "dnp": false,
+      "drawing_position": [
+        383.54,
+        281.94
+      ]
+    },
+    {
+      "ref": "XS223",
+      "page": "CH2",
+      "target_ref": "J8",
+      "target_pin": "2",
+      "net": "GND",
+      "role": "Output GND",
+      "dnp": false,
+      "drawing_position": [
+        383.54,
+        294.64
+      ]
+    },
+    {
+      "ref": "XS224",
+      "page": "CH2",
+      "target_ref": "J8",
+      "target_pin": "3",
+      "net": "CH2_FILTERED",
+      "role": "Output POST",
+      "dnp": false,
+      "drawing_position": [
+        383.54,
+        307.34
+      ]
+    },
+    {
+      "ref": "XS225",
+      "page": "CH2",
+      "target_ref": "J8",
+      "target_pin": "4",
+      "net": "GND",
+      "role": "Output GND",
+      "dnp": false,
+      "drawing_position": [
+        383.54,
+        320.03999999999996
+      ]
+    },
+    {
+      "ref": "XS301",
+      "page": "CH2",
+      "target_ref": "J9",
+      "target_pin": "1",
+      "net": "+15V",
+      "role": "External supply +15V",
+      "dnp": false,
+      "drawing_position": [
+        518.16,
+        325.12
+      ]
+    },
+    {
+      "ref": "XS302",
+      "page": "CH2",
+      "target_ref": "J9",
+      "target_pin": "2",
+      "net": "-15V",
+      "role": "External supply -15V",
+      "dnp": false,
+      "drawing_position": [
+        518.16,
+        340.36
+      ]
+    },
+    {
+      "ref": "XS303",
+      "page": "CH2",
+      "target_ref": "J9",
+      "target_pin": "5",
+      "net": "GND",
+      "role": "External supply GND",
+      "dnp": false,
+      "drawing_position": [
+        518.16,
+        355.6
+      ]
+    }
+  ],
+  "inserted_components": {
+    "R4": {
+      "page": "CH1",
+      "value": "120",
+      "socket_pair": [
+        "XS101",
+        "XS102"
+      ],
+      "on_board": false
+    },
+    "C2": {
+      "page": "CH1",
+      "value": "0.33uF",
+      "socket_pair": [
+        "XS103",
+        "XS104"
+      ],
+      "on_board": false
+    },
+    "C3": {
+      "page": "CH1",
+      "value": "0.33uF",
+      "socket_pair": [
+        "XS105",
+        "XS106"
+      ],
+      "on_board": false
+    },
+    "R9": {
+      "page": "CH1",
+      "value": "1Meg",
+      "socket_pair": [
+        "XS107",
+        "XS108"
+      ],
+      "on_board": false
+    },
+    "R10": {
+      "page": "CH1",
+      "value": "1Meg",
+      "socket_pair": [
+        "XS109",
+        "XS110"
+      ],
+      "on_board": false
+    },
+    "R13": {
+      "page": "CH1",
+      "value": "10k",
+      "socket_pair": [
+        "XS111",
+        "XS112"
+      ],
+      "on_board": false
+    },
+    "R14": {
+      "page": "CH1",
+      "value": "10k",
+      "socket_pair": [
+        "XS113",
+        "XS114"
+      ],
+      "on_board": false
+    },
+    "C4": {
+      "page": "CH1",
+      "value": "0.62uF",
+      "socket_pair": [
+        "XS115",
+        "XS116"
+      ],
+      "on_board": false
+    },
+    "C5": {
+      "page": "CH1",
+      "value": "0.62uF",
+      "socket_pair": [
+        "XS117",
+        "XS118"
+      ],
+      "on_board": false
+    },
+    "R31": {
+      "page": "CH2",
+      "value": "120",
+      "socket_pair": [
+        "XS201",
+        "XS202"
+      ],
+      "on_board": false
+    },
+    "C9": {
+      "page": "CH2",
+      "value": "0.33uF",
+      "socket_pair": [
+        "XS203",
+        "XS204"
+      ],
+      "on_board": false
+    },
+    "C10": {
+      "page": "CH2",
+      "value": "0.33uF",
+      "socket_pair": [
+        "XS205",
+        "XS206"
+      ],
+      "on_board": false
+    },
+    "R32": {
+      "page": "CH2",
+      "value": "1Meg",
+      "socket_pair": [
+        "XS207",
+        "XS208"
+      ],
+      "on_board": false
+    },
+    "R33": {
+      "page": "CH2",
+      "value": "1Meg",
+      "socket_pair": [
+        "XS209",
+        "XS210"
+      ],
+      "on_board": false
+    },
+    "R36": {
+      "page": "CH2",
+      "value": "10k",
+      "socket_pair": [
+        "XS211",
+        "XS212"
+      ],
+      "on_board": false
+    },
+    "R37": {
+      "page": "CH2",
+      "value": "10k",
+      "socket_pair": [
+        "XS213",
+        "XS214"
+      ],
+      "on_board": false
+    },
+    "C12": {
+      "page": "CH2",
+      "value": "0.62uF",
+      "socket_pair": [
+        "XS215",
+        "XS216"
+      ],
+      "on_board": false
+    },
+    "C11": {
+      "page": "CH2",
+      "value": "0.62uF",
+      "socket_pair": [
+        "XS217",
+        "XS218"
+      ],
+      "on_board": false
+    }
+  },
+  "scope": "Schematic symbol and electrical mapping only. PCB footprint geometry is assigned by layout.",
+  "testpoint_policy": "T1-T19 are schematic node markers excluded from PCB/BOM, except T8/T16 which model unpopulated standalone reference contact strips.",
+  "counts": {
+    "total_contact_strips": 55,
+    "fitted_contact_strips": 53,
+    "inserted_components": 18
+  },
+  "display_layout": "Sockets beside circuit parts; original inserted values hidden on symbols and listed as nominal defaults.",
+  "fitted_contact_counts_by_sheet": {
+    "CH1": 25,
+    "CH2": 28,
+    "ROOT": 0
+  },
+  "dnp_contact_counts_by_sheet": {
+    "CH1": 1,
+    "CH2": 1,
+    "ROOT": 0
+  },
+  "source_sha256": {
+    "version_5.kicad_pro": "f5bfedd5a44bfed8b1dac48cbe9612e9b4c19546e556af054924ca95ca05f18e",
+    "version_5.kicad_sch": "4f2c835293ebf340a61fda6e384659b16c6811db8e19ef42b7351b65f5ab0c7e",
+    "version_5.kicad_pcb": "cbf2167ed6f2a9661d3211afebeaf59561d0f38e52cb241dc7ed68b2ae0c23df",
+    "CH1.kicad_sch": "5cd08c9866eb545055421591a89e6937da793c31ca5fa911d376bf38be8a02b6",
+    "CH2.kicad_sch": "0a49d26ac99f1c321812bbfcc300119fbd956ffcc6877916b93f7ed7d5a8bc46",
+    "ECG_v5.kicad_sym": "d0f976bc6ba2496aed872346f661c13f4d90b334ce5021681fdf52b9166e7fd5",
+    "sym-lib-table": "b5656be2fe7ad09f2648b0af9861ccef6c95687606e4650cebd8f6c1a5166748"
+  }
+}

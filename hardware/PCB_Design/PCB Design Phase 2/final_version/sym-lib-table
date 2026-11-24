@@ -1,0 +1,3 @@
+(sym_lib_table
+ (lib (name "ECG_v5") (type "KiCad") (uri "${KIPRJMOD}/ECG_v5.kicad_sym") (options "") (descr "Project OPA2337PA and five-hole common socket symbols; footprints pending"))
+)

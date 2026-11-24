@@ -1,0 +1,1885 @@
+{
+  "passed": true,
+  "check_count": 353,
+  "socket_strips": 55,
+  "fitted_socket_strips": 53,
+  "inserted_components": 18,
+  "original_circuit_pin_connectivity_unchanged": true,
+  "checks": [
+    {
+      "check": "Every original circuit pin retains exactly the same original neighbours",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "55 physical contact strips, each a common bus",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Exactly 53 fitted strips and 2 unpopulated external REF strips",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Input/output/power strips exactly mapped to original ports",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T16 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "T16 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T16 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T16 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T8 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "T8 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T8 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T8 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS101 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS101 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS101 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS101 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS102 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS102 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS102 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS102 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS103 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS103 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS103 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS103 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS104 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS104 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS104 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS104 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS105 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS105 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS105 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS105 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS106 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS106 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS106 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS106 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS107 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS107 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS107 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS107 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS108 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS108 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS108 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS108 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS109 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS109 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS109 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS109 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS110 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS110 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS110 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS110 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS111 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS111 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS111 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS111 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS112 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS112 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS112 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS112 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS113 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS113 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS113 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS113 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS114 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS114 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS114 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS114 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS115 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS115 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS115 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS115 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS116 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS116 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS116 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS116 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS117 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS117 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS117 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS117 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS118 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS118 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS118 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS118 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS119 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS119 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS119 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS119 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS120 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS120 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS120 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS120 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS121 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS121 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS121 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS121 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS122 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS122 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS122 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS122 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS123 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS123 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS123 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS123 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS124 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS124 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS124 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS124 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS125 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS125 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS125 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS125 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS201 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS201 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS201 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS201 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS202 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS202 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS202 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS202 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS203 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS203 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS203 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS203 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS204 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS204 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS204 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS204 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS205 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS205 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS205 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS205 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS206 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS206 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS206 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS206 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS207 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS207 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS207 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS207 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS208 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS208 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS208 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS208 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS209 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS209 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS209 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS209 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS210 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS210 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS210 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS210 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS211 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS211 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS211 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS211 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS212 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS212 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS212 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS212 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS213 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS213 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS213 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS213 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS214 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS214 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS214 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS214 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS215 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS215 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS215 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS215 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS216 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS216 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS216 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS216 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS217 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS217 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS217 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS217 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS218 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS218 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS218 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS218 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS219 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS219 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS219 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS219 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS220 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS220 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS220 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS220 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS221 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS221 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS221 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS221 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS222 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS222 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS222 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS222 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS223 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS223 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS223 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS223 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS224 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS224 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS224 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS224 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS225 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS225 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS225 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS225 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS301 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS301 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS301 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS301 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS302 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS302 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS302 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS302 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS303 has one electrical pin, not five independent pins",
+      "pass": true,
+      "details": [
+        "1"
+      ]
+    },
+    {
+      "check": "XS303 transfers as one PCB part",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS303 has explicit common-bus assembly documentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS303 does not guess a footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R4 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R4 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R4 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R4 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R4 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C2 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C2 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C2 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C2 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C2 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C3 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C3 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C3 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C3 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C3 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R9 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R9 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R9 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R9 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R9 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R10 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R10 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R10 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R10 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R10 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R13 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R13 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R13 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R13 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R13 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R14 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R14 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R14 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R14 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R14 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C4 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C4 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C4 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C4 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C4 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C5 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C5 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C5 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C5 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C5 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R31 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R31 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R31 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R31 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R31 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C9 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C9 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C9 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C9 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C9 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C10 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C10 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C10 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C10 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C10 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R32 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R32 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R32 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R32 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R32 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R33 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R33 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R33 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R33 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R33 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R36 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R36 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R36 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R36 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R36 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R37 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R37 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R37 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R37 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "R37 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C12 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C12 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C12 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C12 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C12 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C11 lead 1 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C11 lead 2 maps to its own strip",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C11 strip pair does not short across inserted component",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C11 is excluded from PCB, retained for insertion BOM",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "C11 carries unambiguous contact references",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS119 electrode port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS120 electrode port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS121 electrode port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS122 output port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS123 output port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS124 output port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS125 output port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J4 auxiliary header DNP while white outputs fitted",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS219 electrode port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS220 electrode port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS221 electrode port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS222 output port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS223 output port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS224 output port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS225 output port mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "J8 auxiliary header DNP while white outputs fitted",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS301 external power mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS302 external power mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "XS303 external power mapping",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T1 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T2 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T3 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T4 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T5 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T6 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T7 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T9 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T10 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T11 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T12 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T13 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T14 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T15 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T17 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T18 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "T19 node marker does not create another physical pad",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Project library draws five physical insertion holes",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Project library contains exactly one passive electrical pin",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Final ERC has zero violations",
+      "pass": true,
+      "details": null
+    }
+  ]
+}

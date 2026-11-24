@@ -1,0 +1,1337 @@
+{
+  "revision": "Initial release",
+  "groups": {
+    "PCB_FIXED_OR_OPTION": [
+      {
+        "ref": "C17",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C18",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C35",
+        "value": "100uF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C36",
+        "value": "100uF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C37",
+        "value": "100uF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C38",
+        "value": "100uF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "J9",
+        "value": "POWER_EXPANSION_DNP",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U11",
+        "value": "LM7805CT",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C1",
+        "value": "100nF",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C6",
+        "value": "6.8nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C7",
+        "value": "1nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C8",
+        "value": "1nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C19",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C20",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C21",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C22",
+        "value": "100nF",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C27",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C28",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C29",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C30",
+        "value": "100nF",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "J1",
+        "value": "ELECTRODE_HEADER",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "J2",
+        "value": "REF_SELECT_DNP",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "J3",
+        "value": "REF_SELECT_DNP",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "J4",
+        "value": "OUTPUT_HEADER_DNP",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "JP101",
+        "value": "CUT_TRACE_DEFAULT_CLOSED",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": false
+      },
+      {
+        "ref": "JP102",
+        "value": "CUT_TRACE_DEFAULT_CLOSED",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": false
+      },
+      {
+        "ref": "R1",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R2",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R3",
+        "value": "10",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R5",
+        "value": "10k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R6",
+        "value": "10k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R7",
+        "value": "10k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R8",
+        "value": "1Meg",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R11",
+        "value": "220k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R12",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R15",
+        "value": "220k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R16",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R17",
+        "value": "1.5Meg",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R18",
+        "value": "1.5Meg",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R19",
+        "value": "2.7Meg",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R20",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R21",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R22",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R23",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R24",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R25",
+        "value": "220k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R26",
+        "value": "220k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R27",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U1",
+        "value": "AD620AN",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U2",
+        "value": "LF351N",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U3",
+        "value": "LF351N",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U4",
+        "value": "LF351N",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U5",
+        "value": "OPA2337PA",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C13",
+        "value": "6.8nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C14",
+        "value": "1nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C15",
+        "value": "1nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C16",
+        "value": "100nF",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C23",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C24",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C25",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C26",
+        "value": "100nF",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C31",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C32",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C33",
+        "value": "100nF",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "C34",
+        "value": "100nF",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "J5",
+        "value": "ELECTRODE_HEADER",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "J6",
+        "value": "REF_SELECT_DNP",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "J7",
+        "value": "REF_SELECT_DNP",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "J8",
+        "value": "OUTPUT_HEADER_DNP",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "JP201",
+        "value": "CUT_TRACE_DEFAULT_CLOSED",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": false
+      },
+      {
+        "ref": "JP202",
+        "value": "CUT_TRACE_DEFAULT_CLOSED",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": false
+      },
+      {
+        "ref": "R28",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R29",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R30",
+        "value": "10",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R34",
+        "value": "220k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R35",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R38",
+        "value": "220k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R39",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R40",
+        "value": "1.5Meg",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R41",
+        "value": "1.5Meg",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R42",
+        "value": "2.7Meg",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R43",
+        "value": "10k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R44",
+        "value": "10k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R45",
+        "value": "10k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R46",
+        "value": "1Meg",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R47",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R48",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R49",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R50",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R51",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R52",
+        "value": "220k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R53",
+        "value": "220k",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "R54",
+        "value": "220k",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U6",
+        "value": "AD620AN",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U7",
+        "value": "LF351N",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U8",
+        "value": "LF351N",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U9",
+        "value": "OPA2337PA",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "U10",
+        "value": "LF351N",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      }
+    ],
+    "SCHEMATIC_NODE_MARKER": [
+      {
+        "ref": "T4",
+        "value": "PRE_NOTCH",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T6",
+        "value": "POST_NOTCH",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T12",
+        "value": "PRE_NOTCH",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T14",
+        "value": "POST_NOTCH",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T17",
+        "value": "+15V",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T18",
+        "value": "-15V",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T19",
+        "value": "GND",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T1",
+        "value": "IN_MINUS",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T2",
+        "value": "IN_PLUS",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T3",
+        "value": "ELECTRODE_REF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T5",
+        "value": "GND",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T7",
+        "value": "GND",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T9",
+        "value": "IN_MINUS",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T10",
+        "value": "IN_PLUS",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T11",
+        "value": "ELECTRODE_REF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T13",
+        "value": "GND",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      },
+      {
+        "ref": "T15",
+        "value": "GND",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": false
+      }
+    ],
+    "INSERTED_COMPONENT": [
+      {
+        "ref": "C2",
+        "value": "0.33uF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "C3",
+        "value": "0.33uF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "C4",
+        "value": "0.62uF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "C5",
+        "value": "0.62uF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R4",
+        "value": "120",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R9",
+        "value": "1Meg",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R10",
+        "value": "1Meg",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R13",
+        "value": "10k",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R14",
+        "value": "10k",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "C9",
+        "value": "0.33uF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "C10",
+        "value": "0.33uF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "C11",
+        "value": "0.62uF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "C12",
+        "value": "0.62uF",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R31",
+        "value": "120",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R32",
+        "value": "1Meg",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R33",
+        "value": "1Meg",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R36",
+        "value": "10k",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      },
+      {
+        "ref": "R37",
+        "value": "10k",
+        "dnp": false,
+        "on_board": false,
+        "in_bom": true
+      }
+    ],
+    "PCB_SOCKET": [
+      {
+        "ref": "T8",
+        "value": "Socket_5Hole_Common",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS101",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS102",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS103",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS104",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS105",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS106",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS107",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS108",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS109",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS110",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS111",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS112",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS113",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS114",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS115",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS116",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS117",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS118",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS119",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS120",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS121",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS122",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS123",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS124",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS125",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "T16",
+        "value": "Socket_5Hole_Common",
+        "dnp": true,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS201",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS202",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS203",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS204",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS205",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS206",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS207",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS208",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS209",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS210",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS211",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS212",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS213",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS214",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS215",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS216",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS217",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS218",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS219",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS220",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS221",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS222",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS223",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS224",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS225",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS301",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS302",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      },
+      {
+        "ref": "XS303",
+        "value": "Socket_5Hole_Common",
+        "dnp": false,
+        "on_board": true,
+        "in_bom": true
+      }
+    ]
+  },
+  "counts": {
+    "PCB_FIXED_OR_OPTION": 98,
+    "SCHEMATIC_NODE_MARKER": 17,
+    "INSERTED_COMPONENT": 18,
+    "PCB_SOCKET": 55
+  },
+  "fitted_board_parts_including_copper_features": 120,
+  "note": "Inserted R/C are separate manual-insertion BOM items. Schematic node markers do not add PCB pads. Copper links are PCB features, not purchased parts."
+}

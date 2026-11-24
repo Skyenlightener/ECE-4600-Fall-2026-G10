@@ -1,0 +1,1253 @@
+{
+  "date": "2026-10-28",
+  "passed": true,
+  "check_count": 309,
+  "scope": "Submission file completeness, English text, relative Markdown links and anchors, image integrity, KiCad source integrity, socket map consistency, and included electrical check results. No analog performance claim.",
+  "local_link_count": 45,
+  "image_reference_count": 14,
+  "image_file_count": 25,
+  "circuit_checks": 227,
+  "socket_checks": 353,
+  "placement_checks": 25,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "checks": [
+    {
+      "check": "English filename: PCB pics",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/board_back.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/board_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/board_left.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/board_left_sideview.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/board_right.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/board_right_corner.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/dimension_length.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/dimension_width.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/PCB Photo with Functions.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/Schematic P1.png",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/Schematic P2.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/Schematic P3.png",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/white_socket_back.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: PCB pics/white_socket_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/CH1.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/CH1.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/CH1.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/CH2.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/CH2.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/CH2.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/ECG_v5.kicad_sym",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/ECG_v5.kicad_sym",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/ECG_v5.kicad_sym",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README.md",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/README.md",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/README.md",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/kicad_ch2_schematic.png",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/kicad_project_manager.png",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/kicad_root_schematic.png",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/power_area.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/ref_p1.png",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/ref_p2.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/ref_p3.png",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/reference_board.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/socket_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/socket_pairs.png",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/README_assets/socket_underside.jpg",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/reports",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/reports/Assembly_Inventory.json",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/reports/Assembly_Inventory.json",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/reports/Assembly_Inventory.json",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/reports/Connectivity_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/reports/Connectivity_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/reports/Connectivity_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/reports/ERC.json",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/reports/ERC.json",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/reports/ERC.json",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/reports/Inline_Layout_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/reports/Inline_Layout_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/reports/Inline_Layout_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/reports/Socket_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/reports/Socket_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/reports/Socket_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/reports/Submission_Validation.json",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/reports/Submission_Validation.json",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/reports/Submission_Validation.json",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/Socket_Connections.md",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/Socket_Connections.md",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/Socket_Connections.md",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/Socket_Contact_Map.json",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/Socket_Contact_Map.json",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/Socket_Contact_Map.json",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/sym-lib-table",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/sym-lib-table",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/sym-lib-table",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/version_5.kicad_pcb",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/version_5.kicad_pcb",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/version_5.kicad_pcb",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "English filename: version_5/version_5.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "English text: version_5/version_5.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "No workstation-specific dependency: version_5/version_5.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Portable Markdown syntax: README.md",
+      "pass": true
+    },
+    {
+      "check": "No handoff section: README.md",
+      "pass": true
+    },
+    {
+      "check": "Balanced Markdown fences: README.md",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: #1-about-this-readme",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: #1-about-this-readme",
+      "pass": true
+    },
+    {
+      "check": "Heading anchor exists: #1-about-this-readme",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: #2-project-goals",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: #2-project-goals",
+      "pass": true
+    },
+    {
+      "check": "Heading anchor exists: #2-project-goals",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: #3-system-and-signal-flow",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: #3-system-and-signal-flow",
+      "pass": true
+    },
+    {
+      "check": "Heading anchor exists: #3-system-and-signal-flow",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: #4-getting-started-with-kicad",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: #4-getting-started-with-kicad",
+      "pass": true
+    },
+    {
+      "check": "Heading anchor exists: #4-getting-started-with-kicad",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: #5-project-folder-structure",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: #5-project-folder-structure",
+      "pass": true
+    },
+    {
+      "check": "Heading anchor exists: #5-project-folder-structure",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: #6-schematic-design-and-reference-images",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: #6-schematic-design-and-reference-images",
+      "pass": true
+    },
+    {
+      "check": "Heading anchor exists: #6-schematic-design-and-reference-images",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: #7-proposed-to-do-list",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: #7-proposed-to-do-list",
+      "pass": true
+    },
+    {
+      "check": "Heading anchor exists: #7-proposed-to-do-list",
+      "pass": true
+    },
+    {
+      "check": "HTTPS external link: https://www.kicad.org/download/windows/",
+      "pass": true
+    },
+    {
+      "check": "HTTPS external link: https://www.kicad.org/download/",
+      "pass": true
+    },
+    {
+      "check": "HTTPS external link: https://docs.kicad.org/10.0/en/getting_started_in_kicad/getting_started_in_kicad.html",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: version_5.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: version_5.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/kicad_project_manager.png",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/kicad_project_manager.png",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/kicad_root_schematic.png",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/kicad_root_schematic.png",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/kicad_ch2_schematic.png",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/kicad_ch2_schematic.png",
+      "pass": true
+    },
+    {
+      "check": "HTTPS external link: https://docs.kicad.org/10.0/en/eeschema/eeschema.html#actions-reference",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: version_5.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: version_5.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: CH1.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: CH1.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: CH2.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: CH2.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: version_5.kicad_pcb",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: version_5.kicad_pcb",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: ECG_v5.kicad_sym",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: ECG_v5.kicad_sym",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: sym-lib-table",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: sym-lib-table",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: Socket_Connections.md",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: Socket_Connections.md",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: Socket_Contact_Map.json",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: Socket_Contact_Map.json",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: reports/",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: reports/",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: ../PCB%20pics/",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: ../PCB%20pics/",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/reference_board.jpg",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/reference_board.jpg",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/ref_p1.png",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/ref_p1.png",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/ref_p3.png",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/ref_p3.png",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/ref_p2.jpg",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/ref_p2.jpg",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/power_area.jpg",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/power_area.jpg",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/socket_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/socket_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/socket_underside.jpg",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/socket_underside.jpg",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/socket_pairs.png",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/socket_pairs.png",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: reports/ERC.json",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: reports/ERC.json",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: reports/Connectivity_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: reports/Connectivity_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: reports/Socket_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: reports/Socket_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: reports/Inline_Layout_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: reports/Inline_Layout_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: reports/Assembly_Inventory.json",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: reports/Assembly_Inventory.json",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: reports/Submission_Validation.json",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: reports/Submission_Validation.json",
+      "pass": true
+    },
+    {
+      "check": "Portable Markdown syntax: Socket_Connections.md",
+      "pass": true
+    },
+    {
+      "check": "No handoff section: Socket_Connections.md",
+      "pass": true
+    },
+    {
+      "check": "Balanced Markdown fences: Socket_Connections.md",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/socket_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/socket_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/socket_underside.jpg",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/socket_underside.jpg",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README_assets/socket_pairs.png",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README_assets/socket_pairs.png",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: Socket_Contact_Map.json",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: Socket_Contact_Map.json",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: reports/Assembly_Inventory.json",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: reports/Assembly_Inventory.json",
+      "pass": true
+    },
+    {
+      "check": "Relative link stays in package: README.md#67-checks",
+      "pass": true
+    },
+    {
+      "check": "Local link exists: README.md#67-checks",
+      "pass": true
+    },
+    {
+      "check": "Heading anchor exists: README.md#67-checks",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/board_back.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/board_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/board_left.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/board_left_sideview.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/board_right.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/board_right_corner.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/dimension_length.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/dimension_width.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/PCB Photo with Functions.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/Schematic P1.png",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/Schematic P2.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/Schematic P3.png",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/white_socket_back.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: PCB pics/white_socket_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/kicad_ch2_schematic.png",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/kicad_project_manager.png",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/kicad_root_schematic.png",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/power_area.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/ref_p1.png",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/ref_p2.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/ref_p3.png",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/reference_board.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/socket_front.jpg",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/socket_pairs.png",
+      "pass": true
+    },
+    {
+      "check": "Image can be decoded: version_5/README_assets/socket_underside.jpg",
+      "pass": true
+    },
+    {
+      "check": "KiCad circuit file unchanged: version_5.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "KiCad circuit file unchanged: CH1.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "KiCad circuit file unchanged: CH2.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "KiCad circuit file unchanged: version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "KiCad circuit file unchanged: version_5.kicad_pcb",
+      "pass": true
+    },
+    {
+      "check": "KiCad circuit file unchanged: ECG_v5.kicad_sym",
+      "pass": true
+    },
+    {
+      "check": "Project-relative custom symbol library",
+      "pass": true
+    },
+    {
+      "check": "Two channel sheets resolve",
+      "pass": true
+    },
+    {
+      "check": "PCB correctly documented as an empty board",
+      "pass": true
+    },
+    {
+      "check": "Current source hash: version_5.kicad_pro",
+      "pass": true
+    },
+    {
+      "check": "Current source hash: version_5.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Current source hash: version_5.kicad_pcb",
+      "pass": true
+    },
+    {
+      "check": "Current source hash: CH1.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Current source hash: CH2.kicad_sch",
+      "pass": true
+    },
+    {
+      "check": "Current source hash: ECG_v5.kicad_sym",
+      "pass": true
+    },
+    {
+      "check": "Current source hash: sym-lib-table",
+      "pass": true
+    },
+    {
+      "check": "55 socket contacts in map",
+      "pass": true
+    },
+    {
+      "check": "53 fitted strips in map",
+      "pass": true
+    },
+    {
+      "check": "CH1 fitted count",
+      "pass": true
+    },
+    {
+      "check": "CH2 fitted count",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: T8",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS101",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS102",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS103",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS104",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS105",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS106",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS107",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS108",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS109",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS110",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS111",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS112",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS113",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS114",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS115",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS116",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS117",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS118",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS119",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS120",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS121",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS122",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS123",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS124",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS125",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: T16",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS201",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS202",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS203",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS204",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS205",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS206",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS207",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS208",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS209",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS210",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS211",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS212",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS213",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS214",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS215",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS216",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS217",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS218",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS219",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS220",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS221",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS222",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS223",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS224",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS225",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS301",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS302",
+      "pass": true
+    },
+    {
+      "check": "Socket net matches export: XS303",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R4",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: C2",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: C3",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R9",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R10",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R13",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R14",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: C4",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: C5",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R31",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: C9",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: C10",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R32",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R33",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R36",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: R37",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: C12",
+      "pass": true
+    },
+    {
+      "check": "Inserted component pair: C11",
+      "pass": true
+    },
+    {
+      "check": "Audit report passes: Connectivity_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "Audit report passes: Socket_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "Audit report passes: Inline_Layout_Audit.json",
+      "pass": true
+    },
+    {
+      "check": "ERC zero violations",
+      "pass": true
+    },
+    {
+      "check": "Independent exported-pin and component comparison passes",
+      "pass": true
+    },
+    {
+      "check": "No editor history, locks, or local preferences",
+      "pass": true,
+      "details": []
+    }
+  ]
+}
