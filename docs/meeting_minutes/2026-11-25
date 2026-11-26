@@ -1,0 +1,43 @@
+
+## Meeting Information
+- **Project:** ECE 4600 Capstone
+- **Date:** 2026-11-25
+- **Time:** 6:00 p.m. - 7:15 p.m.
+- **Location:** via Teams
+- **Attendees:** 	  
+	  Thomas Shi; 
+	  Jingkai Sun; 
+	  Noah Webborwesky; 
+	  Akbar Bakhromov; 
+
+## 1. Meeting Objectives
+- Working on the DR2: Drafting Report, Creating Slide.
+
+## 2. Discussion Summary
+
+### 2.1 Project Progress
+- Progress report by module will be uploaded on Teams general channel
+
+### 2.2 Technical Issues
+- No typical technical issues discovered.
+
+## 3. Decisions Made
+-  We will make changes to our work based on tomorrows' meetings result.
+
+## 4. Action Items
+
+|   Category    |                                        Task                                        |        Assigned To         |            Deadline            | Status |
+| :-----------: | :--------------------------------------------------------------------------------: | :------------------------: | :----------------------------: | ------ |
+|   Hardware    |         Checking with Zoran whether he has enough white socket around 60.          |           Akbar            |        Thursday Morning        |        |
+|   Hardware    |                Pick up the LF356N (number of 10) from the techshop                 |           Thomas           |        Thursday Morning        |        |
+|   Hardware    |          Send the PCB purchase email if the white socket has more than 30          |           Akbar            |        Thursday Morning        |        |
+|   Hardware    | Designing a DC bias circuit which connects the PCB output and the MCU's ADC input. |            TBD             |              TBD               |        |
+|  DR2 Report   |                                  Progress Report                                   |          Everyone          |        Thursday Morning        |        |
+|  DR2 Report   |                         GANTT Chart and Performance Metric                         | Thomas Shi and Jingkai Sun |        Thursday Morning        |        |
+|   DR2 Slide   |                               Complete a draft slide                               |          Everyone          |        Thursday Morning        |        |
+|      DR2      |                       Sending the report and slide to Aiden                        |           Thomas           | Thursday Morning by 10:00 a.m. |        |
+| DR2 Rehearsal |                 Having a meeting with Aiden tomorrow 14:00 - 14:30                 |             -              |               -                |        |
+| Architecture  |       Figuring out a time to do a drone scanning early next week with Dhrubo       |             -              |    Monday/Tuesday next week    |        |
+
+## 5. Next Meeting
+- **Date:** Thursday with Aiden (1st meeting) and with Peng (2nd meeting)
